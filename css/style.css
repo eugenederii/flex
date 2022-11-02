@@ -1,0 +1,182 @@
+body {
+    background-color: #f0b9b9;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+    min-height: 100%;
+    background-color: #db9696;
+    /* border: 3px solid #333; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #ec0404;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #252530;
+    padding-left: 10px;
+
+}
+
+.flex__title {
+    font-size: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.flex__block {
+    border: 1px solid rgb(3, 1, 1);
+}
+
+.flex__box {
+    min-height: 200px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid #484848;
+}
+
+.flex__item {
+    max-width: 70px;
+    max-height: 70px;
+    font-size: 30px;
+    background-color: #faf607;
+    color: #ec0404;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid #1405f1;
+    padding: 40px;
+
+}
+
+.flex__box_inline-flex {
+    display: inline-flex;
+}
+
+.flex__box_align-items-flex-start {
+    align-items: flex-start;
+}
+
+.flex__box_align-items-flex-end {
+    align-items: flex-end;
+}
+
+.flex__box_align-items-center {
+    align-items: center;
+}
+
+.flex__box_align-items-baseline {
+    align-items: baseline;
+}
+
+.flex__box_justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.flex__box_justify-content-center {
+    justify-content: center;
+}
+
+.flex__box_justify-content-space-between {
+    justify-content: space-between;
+}
+
+.flex__box_justify-content-space-around {
+    justify-content: space-around;
+}
+
+.flex__box_justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex__box_justify-content-flex-start {
+    justify-content: flex-start;
+}
+
+.flex__box_wrap {
+    max-width: 300px;
+    flex-wrap: wrap;
+}
+
+.flex__box_wrap-reverse {
+    max-width: 300px;
+    flex-wrap: wrap-reverse;
+}
+
+.flex__box_row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex__box_colomn {
+    flex-direction: column;
+}
+
+.flex__box_column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex__item-order:nth-child(2) {
+    order: 3;
+}
+
+.flex__item-order:nth-child(3) {
+    order: 4;
+}
+
+.flex__align-self-center {
+    align-self: center;
+}
+
+
+.cards {
+    display: flex;
+    margin: 0px 15px;
+    margin-top: 150px;
+}
+
+.cards__item {
+    min-height: 100%;
+}
+
+.item-card__image img {
+    max-width: 100%;
+}
+
+.item-card__image {
+    margin-bottom: 15px;
+}
+
+.cards__column {
+    flex: 0 1 33.33%;
+    padding: 0px 15px;
+}
+
+.item-card__text {
+    color: rgb(27, 31, 28);
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.item-card__button {
+    background-color: #34C759;
+    padding: 5px;
+}
+
+.item-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
